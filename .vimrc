@@ -20,7 +20,6 @@
 "
 
 let g:python_host_prog = '/usr/local/bin/python'
-set shell=/bin/zsh
 " meh
 set nocompatible
 
@@ -72,7 +71,8 @@ syntax on                       " enable syntax highlighting
 set background=dark             " use dark background to reduce tears level
 set t_Co=256                    " enable 256-color mode
 let base16colorspace=256
-colorscheme base16-ocean
+colorscheme Tomorrow-Night
+
 set ruler                       " show ruler (vim-airline will take care of this anyway)
 set number                      " show line numbers
 set title                       " show file name in title bar
@@ -108,8 +108,8 @@ endif
 set lazyredraw
 
 " ----- code editing -----
-set tabstop=2                               " use 2 spaces for a tab
-set shiftwidth=2                            " use 2 spaces for indent
+set tabstop=4                               " use 2 spaces for a tab
+set shiftwidth=4                            " use 2 spaces for indent
 set smartindent                             " be smart, even for indentation
 set autoindent
 set splitbelow                              " split window to the bottom and the right (for vsp) by default
