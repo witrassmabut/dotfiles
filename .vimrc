@@ -108,8 +108,8 @@ endif
 set lazyredraw
 
 " ----- code editing -----
-set tabstop=4                               " use 2 spaces for a tab
-set shiftwidth=4                            " use 2 spaces for indent
+set tabstop=4                               " use 4 spaces for a tab
+set shiftwidth=4                            " use 4 spaces for indent
 set smartindent                             " be smart, even for indentation
 set autoindent
 set splitbelow                              " split window to the bottom and the right (for vsp) by default
