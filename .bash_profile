@@ -28,6 +28,9 @@ export PATH="/usr/local/bin:/usr/local/sbin:$PATH"
 # Open Vim in new Window
 alias edit=". ~/.edit"
 
+# Use Docker Command When Start up
+eval $(docker-machine env docker)
+
 # Ubuntu Virtualbox for Naga
 alias nagaInfo="VBoxManage showvminfo Ubuntu"
 alias nagaInfoRule="VBoxManage showvminfo Ubuntu | grep Rule"
